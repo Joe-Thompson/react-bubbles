@@ -64,6 +64,7 @@ form {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 
   legend {
     padding-left: 40px;
@@ -96,4 +97,50 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.form {
+  margin-left: -25rem;
+  margin-top: 6rem;
+}
+
+.input {
+  padding: 1rem;
+  width: 20rem;
+  border-radius: .6rem;
+  margin: .5rem;
+}
+
+.button {
+  padding: .5rem;
+  width: 10rem;
+  margin-left: 6rem;
+  margin-top: .5rem;
+  border-radius: .6rem;
+  background-color: #d2fef9;
+}
+
+.intro {
+  padding: 3rem;
+}
+
+.add-button {
+  margin-top: 3rem;
+}
+
+h1 {
+  padding-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: skyblue;
+  padding: .6rem;
+  border-radius: .5rem
+}
+
+.add-form {
+  width: 80%;
+  margin: 2rem -40rem 0 45rem;
 }

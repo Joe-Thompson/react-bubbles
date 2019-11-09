@@ -1,0 +1,25 @@
+1) Explain what a token is used for.
+
+A token is created once a user has submitted their login credentials  and has been authenticated by the server, that
+token is then used to give the user authorization to protected routes, as well as be placed in the header of any axios
+call made during that users session.
+
+2) What steps can you take in your web apps to keep your data secure?
+
+The first step would be to create a login component that checks the users credentials and create a token once the user
+has been authenticated.  The next step would be to create protected routes that only a logged in user has access to.
+Once potential security leak would to leave the token in local storage, the last step is to create a log out component
+that once the user is done their token is erased from local storage.
+
+3) Describe how web servers work.
+
+Web servers are computers that store our code for our web apps, the program that web servers run is...web server.  When
+a user types in a url of any kind, their modem sends a request to their isp which sends a request to the web server
+hoisting that url, once that url receives the request it sends the data back along the same path to the user
+
+4) Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+C – post request to submit data to the api
+R – get request to fetch data from the api
+U – put request to update data on the api
+D – delete to...well delete data from the api
