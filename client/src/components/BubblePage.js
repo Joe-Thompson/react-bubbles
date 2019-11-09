@@ -7,15 +7,17 @@ import ColorList from "./ColorList";
 const BubblePage = () => {
   const [colorList, setColorList] = useState([]);
 
-    useEffect(() => {
-        api().get("/api/colors")
-            .then(result => {
-                setColorList(result.data)
-            })
-            .catch(error => {
-                console.log(error)
-            })
-    }, []);
+  useEffect(() => {
+    api()
+      .get("/api/colors")
+      .then(result => {
+          console.log(result);
+        setColorList(result.data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }, []);
 
   return (
     <>
